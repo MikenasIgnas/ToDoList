@@ -1,0 +1,22 @@
+.addItem {
+  display: flex;
+  margin: auto;
+  justify-content: center;
+  margin-top: 50px;
+  margin-bottom: 20px;
+}
+
+.activity {
+  line-height: 100%;
+  margin: 0;
+}
+.content {
+  display: flex;
+  align-items: center;
+}
+
+.item {
+  margin: auto;
+  width: 80%;
+  background-color: aqua;
+}
