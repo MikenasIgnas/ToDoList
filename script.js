@@ -20,7 +20,6 @@ const addListItem = () => {
 
   createArrowIcon(content);
   idNumber++;
-  console.log("jomajo");
 };
 
 document.addEventListener("keydown", (event) => {
