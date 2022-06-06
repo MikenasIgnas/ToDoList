@@ -17,8 +17,10 @@ const addListItem = () => {
   createTextItem(content);
   createCheckbox(content);
   createDeleteIcon(content);
+
   createArrowIcon(content);
   idNumber++;
+  console.log("jomajo");
 };
 
 document.addEventListener("keydown", (event) => {
