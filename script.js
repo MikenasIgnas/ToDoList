@@ -18,9 +18,9 @@ const addListItem = () => {
   createCheckbox(content);
   createDeleteIcon(content);
 
-  createArrowIcon(content);
+  // createArrowIcon(content);
+  createSecondCheckbox(content);
   idNumber++;
-  console.log("jomajo");
 };
 
 document.addEventListener("keydown", (event) => {
@@ -76,21 +76,39 @@ const createDeleteIcon = (content) => {
     itemContainer.removeChild(content);
   });
 };
-let count = 1;
-const createArrowIcon = (content) => {
-  const arrowIcon = document.createElement("button");
-  arrowIcon.innerHTML = `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512"><!--! Font Awesome Pro 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M374.6 246.6C368.4 252.9 360.2 256 352 256s-16.38-3.125-22.62-9.375L224 141.3V448c0 17.69-14.33 31.1-31.1 31.1S160 465.7 160 448V141.3L54.63 246.6c-12.5 12.5-32.75 12.5-45.25 0s-12.5-32.75 0-45.25l160-160c12.5-12.5 32.75-12.5 45.25 0l160 160C387.1 213.9 387.1 234.1 374.6 246.6z"/></svg>`;
-  arrowIcon.classList.add("arrowIcon");
-  content.appendChild(arrowIcon);
-  arrowIcon.addEventListener("click", function () {
-    if (count == 00) {
+// let count = 1;
+// const createArrowIcon = (content) => {
+//   const arrowIcon = document.createElement("button");
+//   arrowIcon.innerHTML = `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512"><!--! Font Awesome Pro 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M374.6 246.6C368.4 252.9 360.2 256 352 256s-16.38-3.125-22.62-9.375L224 141.3V448c0 17.69-14.33 31.1-31.1 31.1S160 465.7 160 448V141.3L54.63 246.6c-12.5 12.5-32.75 12.5-45.25 0s-12.5-32.75 0-45.25l160-160c12.5-12.5 32.75-12.5 45.25 0l160 160C387.1 213.9 387.1 234.1 374.6 246.6z"/></svg>`;
+//   arrowIcon.classList.add("arrowIcon");
+//   content.appendChild(arrowIcon);
+
+//   arrowIcon.addEventListener("click", function () {
+//     if (count === 0) {
+//       content.style.backgroundColor = "#f38686";
+//       count = 1;
+//       itemContainer.prepend(content);
+//       //sitas prepend stackoverflow radau ir ten buvo prependTo ir neveike man, machine learning overcame this obstacle tho
+//     } else {
+//       content.style.backgroundColor = "white";
+//       count = 0;
+//     }
+//   });
+// };
+
+const createSecondCheckbox = (content) => {
+  const checkbox = document.createElement("input");
+  checkbox.type = "checkbox";
+  checkbox.classList.add("check");
+  document.querySelector("p");
+  checkbox.addEventListener("click", function () {
+    if (checkbox.checked) {
       content.style.backgroundColor = "#f38686";
-      count = 1;
       itemContainer.prepend(content);
-      //sitas prepend stackoverflow radau ir ten buvo prependTo ir neveike man, machine learning overcame this obstacle tho
     } else {
       content.style.backgroundColor = "white";
-      count = 0;
+      itemContainer.append(content);
     }
   });
+  content.appendChild(checkbox);
 };

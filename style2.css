@@ -33,6 +33,7 @@ html body {
 }
 .check {
   order: -1;
+  margin-right: 5px;
 }
 .item {
   margin: auto;
