@@ -36,23 +36,15 @@ addItem.addEventListener("click", function () {
 });
 
 const createCheckbox = (content) => {
-  const text = document.getElementById(idNumber);
-
   const checkbox = document.createElement("input");
   checkbox.type = "checkbox";
   checkbox.classList.add("check");
-
-  const label = document.createElement("label");
-  label.innerHTML = "Finish";
-  label.classList.add("label2");
-  content.appendChild(label);
+  const text = document.getElementById(idNumber);
 
   checkbox.addEventListener("click", function () {
     if (checkbox.checked) {
-      label.innerHTML = "Undo";
       text.style.textDecoration = "line-through";
     } else {
-      label.innerHTML = "Finish";
       text.style.textDecoration = "none";
     }
   });
@@ -108,20 +100,13 @@ const createSecondCheckbox = (content) => {
   const checkbox = document.createElement("input");
   checkbox.type = "checkbox";
   checkbox.classList.add("check");
-
-  const label = document.createElement("label");
-  label.innerHTML = "Up";
-  label.classList.add("label");
-  content.appendChild(label);
-
+  document.querySelector("p");
   checkbox.addEventListener("click", function () {
     if (checkbox.checked) {
       content.style.backgroundColor = "#f38686";
-      label.innerHTML = "Down";
       itemContainer.prepend(content);
     } else {
       content.style.backgroundColor = "white";
-      label.innerHTML = "Up";
       itemContainer.append(content);
     }
   });

@@ -15,9 +15,9 @@ html body {
 
 .activity {
   flex: 1;
-  margin-left: 30px;
   line-height: 100%;
   margin-bottom: 4px;
+  margin-left: 10px;
 }
 
 .content {
@@ -33,6 +33,7 @@ html body {
 }
 .check {
   order: -1;
+  margin-right: 5px;
 }
 .item {
   margin: auto;
@@ -56,17 +57,4 @@ html body {
   border: none;
   background: none;
   fill: rgb(0, 0, 0);
-}
-.label {
-  order: -1;
-  line-height: 100%;
-  margin-bottom: 4px;
-  margin-right: 3px;
-  margin-left: 15px;
-}
-.label2 {
-  order: -1;
-  line-height: 100%;
-  margin-bottom: 4px;
-  margin-right: 3px;
 }
