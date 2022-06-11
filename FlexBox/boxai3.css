@@ -1,0 +1,363 @@
+.main {
+  display: flex;
+}
+
+.first {
+  width: 70%;
+  height: 700px;
+}
+.second {
+  width: 30%;
+  height: 700px;
+  background-color: rgb(42, 78, 78);
+}
+.first1 {
+  display: flex;
+  width: 100%;
+  height: 300px;
+  background-color: rgb(39, 49, 49);
+}
+.Bottom {
+  display: flex;
+}
+.first3 {
+  width: 50%;
+  height: 400px;
+  background-color: rgb(49, 53, 53);
+}
+.first4 {
+  width: 60%;
+  height: 400px;
+  background-color: rgb(174, 196, 116);
+}
+.firstLeft {
+  height: 300px;
+  width: 30%;
+  background-color: rgb(46, 77, 47);
+}
+.secondLeft {
+  height: 300px;
+  width: 15%;
+  background-color: rgb(9, 99, 76);
+}
+.thirdLeft {
+  display: flex;
+  align-items: flex-end;
+  height: 300px;
+  width: 15%;
+  background-color: rgb(14, 63, 51);
+}
+.thirdLeftBottom {
+  height: 100px;
+  width: 100%;
+  background-color: rgb(20, 39, 34);
+}
+
+.fourthLeft {
+  display: flex;
+  height: 300px;
+  width: 12%;
+  background-color: rgb(90, 105, 238);
+}
+.fourthLeftTop {
+  display: flex;
+  align-items: flex-end;
+  height: 300px;
+  width: 50%;
+  background-color: rgb(41, 47, 97);
+}
+.fifthLeftTop {
+  display: flex;
+  align-items: flex-end;
+  height: 300px;
+  width: 50%;
+  background-color: rgb(122, 126, 168);
+}
+.sixthLeftMiddle {
+  height: 130px;
+  width: 100%;
+  background-color: rgb(28, 30, 48);
+}
+.sixthLeftMiddleBottom {
+  background-color: rgb(42, 63, 63);
+  height: 50px;
+  width: 100%;
+}
+.sixthLeftMiddleBottom2 {
+  background-color: rgb(95, 153, 153);
+  height: 50px;
+  width: 100%;
+}
+.fifthLeft {
+  display: flex;
+  height: 300px;
+  width: 12%;
+  background-color: rgb(90, 105, 238);
+}
+.fifthLeft .fourthLeftTop {
+  display: flex;
+  align-items: flex-end;
+  height: 300px;
+  width: 50%;
+  background-color: rgb(33, 36, 63);
+}
+.fifthLeft .fifthLeftTop {
+  display: flex;
+  align-items: flex-end;
+  height: 300px;
+  width: 50%;
+  background-color: rgb(34, 34, 95);
+}
+.sevenLeftMiddle {
+  height: 150px;
+  width: 100%;
+  background-color: rgb(134, 136, 153);
+}
+.sixthLeft {
+  height: 150px;
+  width: 20%;
+  background-color: rgb(59, 72, 184);
+}
+.sixthLeft1 {
+  height: 150px;
+  width: 30%;
+  background-color: rgb(55, 58, 66);
+}
+.sixthLeft2 {
+  height: 150px;
+  width: 70%;
+  background-color: rgb(20, 21, 24);
+}
+
+.secondTop {
+  background-color: aqua;
+  width: 100%;
+  height: 280px;
+  display: flex;
+}
+.secondMiddle {
+  background-color: rgb(154, 212, 212);
+  width: 100%;
+  height: 280px;
+}
+.thirdMBottom {
+  background-color: rgb(32, 36, 36);
+  width: 100%;
+  height: 140px;
+}
+
+.secondTopLeft {
+  width: 60%;
+  height: 280px;
+  background-color: rgb(139, 125, 105);
+}
+.secondTopLeft1 {
+  width: 50%;
+  height: 200px;
+  background-color: rgb(115, 185, 185);
+}
+.secondTopLeft2 {
+  width: 100%;
+  height: 100px;
+  background-color: rgb(28, 77, 77);
+}
+.secondTopLeftBottom {
+  display: flex;
+  width: 100%;
+  height: 80px;
+  background-color: rgb(143, 119, 143);
+}
+.secondTopLeftBottomTop {
+  width: 30%;
+  height: 80px;
+  background-color: rgb(136, 77, 136);
+}
+.secondTopLeftBottom2 {
+  width: 30%;
+  background-color: rgb(172, 108, 108);
+  height: 80px;
+}
+.secondTopLeftBottom3 {
+  width: 100%;
+  background-color: rgb(160, 125, 125);
+  height: 30px;
+}
+
+.secondTopRight {
+  width: 40%;
+  height: 280px;
+  background-color: rgb(182, 172, 157);
+}
+.secondTopRightTop {
+  display: flex;
+  width: 100%;
+  height: 180px;
+  background-color: rgb(94, 77, 51);
+}
+.secondTopRightBottom {
+  display: flex;
+  justify-content: end;
+  width: 100%;
+  height: 100px;
+  background-color: rgb(167, 129, 81);
+}
+.secondTopRightTopLeft {
+  width: 50%;
+  height: 180px;
+  background-color: rgb(17, 163, 163);
+}
+.secondTopRightTopRight {
+  width: 50%;
+  height: 180px;
+  background-color: rgb(22, 44, 44);
+}
+.secondTopRightTopLeftTop {
+  width: 100%;
+  height: 120px;
+  background-color: rgb(67, 116, 116);
+}
+.secondTopRightTopRightTop {
+  width: 100%;
+  height: 60px;
+  background-color: rgb(51, 71, 71);
+}
+.secondTopRightBottomRight {
+  width: 10%;
+  height: 100px;
+  background-color: rgb(57, 109, 109);
+}
+.secondTopRightBottomTop {
+  width: 90%;
+  height: 40px;
+  background-color: rgb(135, 192, 192);
+}
+
+.first3One {
+  display: flex;
+}
+.first3left {
+  width: 50%;
+  height: 250px;
+  background-color: aqua;
+}
+.first3Right {
+  width: 50%;
+  height: 250px;
+  background-color: rgb(69, 99, 99);
+}
+.first3Bottom {
+  display: flex;
+}
+.first3BottomLeft {
+  width: 60%;
+  height: 100px;
+  background-color: rgb(91, 91, 143);
+}
+.first3BottomRight {
+  width: 40%;
+  height: 100px;
+  background-color: rgb(46, 46, 61);
+}
+.first3Bottom2 {
+  display: flex;
+}
+.first3Bottom2Left {
+  width: 40%;
+  height: 50px;
+  background-color: rgb(59, 59, 94);
+}
+.first3Bottom2Right {
+  width: 60%;
+  height: 50px;
+  background-color: rgb(102, 102, 211);
+}
+.tops {
+  display: flex;
+}
+.top1 {
+  width: 30%;
+  height: 330px;
+  background-color: rgb(75, 212, 110);
+}
+.top2 {
+  width: 60%;
+  height: 330px;
+  background-color: rgb(64, 156, 61);
+}
+
+.top3 {
+  width: 30%;
+  height: 330px;
+  background-color: rgb(36, 92, 34);
+}
+.top3top {
+  width: 100%;
+  height: 100px;
+  background-color: rgb(51, 70, 50);
+}
+
+.bottoms {
+  display: flex;
+}
+
+.bottom1 {
+  width: 20%;
+  height: 70px;
+  background-color: rgb(109, 139, 108);
+}
+.bottom2 {
+  width: 50%;
+  height: 70px;
+  background-color: rgb(52, 83, 51);
+}
+.bottom3 {
+  width: 30%;
+  height: 70px;
+  background-color: rgb(101, 145, 72);
+}
+.secondMiddle {
+  display: flex;
+}
+.secondMiddleLeft {
+  width: 45%;
+  height: 280px;
+  background-color: rgb(78, 95, 95);
+}
+.secondMiddleRight {
+  width: 55%;
+  height: 280px;
+  background-color: rgb(50, 158, 158);
+}
+.secondMiddleLeftTop {
+  width: 100%;
+  min-height: 180px;
+  background-color: rgb(87, 124, 124);
+}
+.secondMiddleRightTop {
+  width: 100%;
+  height: 80px;
+  background-color: rgb(40, 77, 77);
+}
+.thirdBottom {
+  display: flex;
+}
+.thirdBottomOne {
+  width: 60%;
+  height: 140px;
+  background-color: rgb(56, 189, 149);
+}
+.thirdBottomTwo {
+  width: 20%;
+  height: 140px;
+  background-color: rgb(83, 119, 108);
+}
+.thirdBottomThree {
+  width: 20%;
+  height: 140px;
+  background-color: rgb(126, 143, 138);
+}
+.thirdBottomThreeTop {
+  width: 100%;
+  height: 50px;
+  background-color: rgb(120, 202, 178);
+}

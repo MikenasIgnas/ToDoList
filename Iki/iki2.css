@@ -1,0 +1,65 @@
+body {
+  background-image: url("https://s1.15min.lt/images/photos/2021/06/28/original/bananai-60d986f77a501.jpg");
+}
+.header {
+  padding-left: 100px;
+
+  background-color: rgb(255, 255, 255);
+  width: 100%;
+  height: 100px;
+  align-items: center;
+  display: flex;
+  justify-content: flex-end;
+  justify-content: space-between;
+}
+
+.menu {
+  padding-right: 180px;
+  display: flex;
+  justify-content: flex-end;
+}
+a {
+  margin: 0 20px 0px;
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+  display: flex;
+}
+
+main {
+  margin: auto;
+  margin-top: 50px;
+  padding-top: 40px;
+  padding-left: 50px;
+  padding-right: 50px;
+  background-color: white;
+  width: 80%;
+  height: 800px;
+}
+
+span {
+  color: rgb(45, 223, 45);
+}
+.input {
+  margin-bottom: 20px;
+  width: 100%;
+  height: 40px;
+}
+.button {
+  color: white;
+  border: none;
+  background-color: green;
+  width: 50%;
+  height: 40px;
+}
+
+td {
+  height: 50px;
+  border: 2px solid black;
+}
+
+table {
+  margin-top: 150px;
+  width: 100%;
+  border-collapse: collapse;
+  text-align: center;
+}

@@ -1,0 +1,45 @@
+* {
+  margin: 0px;
+}
+
+.grid {
+  height: 50vh;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 100px 3fr 1fr;
+}
+.kvadratas {
+  font-size: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 5px solid black;
+  margin: 5px;
+}
+.grid2 {
+  height: 50vh;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: repeat(5, 1fr);
+}
+
+.pirmas {
+  grid-column-start: 4;
+  grid-column-end: 5;
+  grid-row-start: 5;
+  grid-row-end: 6;
+}
+.ketvirtas {
+  grid-column-start: 1;
+  grid-column-end: 3;
+  grid-row-start: 4;
+  grid-row-end: 6;
+}
+
+.devintas {
+  grid-column: 3/6;
+  grid-row: 1/2;
+}
+.sestas {
+  grid-area: 3/2/5/4;
+}

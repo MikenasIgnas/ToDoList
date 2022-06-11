@@ -1,0 +1,99 @@
+.main-div {
+  width: 95%;
+  height: 100vh;
+  margin: 1rem auto;
+}
+
+.line-1-block {
+  background-color: hsla(34, 94%, 57%, 0.801);
+  height: 3rem;
+  width: 100%;
+  margin-bottom: 0.3rem;
+}
+
+@media (min-width: 1024px) {
+  .line-1 {
+    display: flex;
+    gap: 0.3rem;
+  }
+}
+
+.line-2 {
+  background-color: hsl(73, 66%, 59%);
+  height: 4rem;
+  width: 100%;
+  margin: 0.6rem 0;
+}
+@media (min-width: 768px) {
+  .line-2 {
+    margin: 1rem 0;
+    height: 10rem;
+  }
+}
+@media (min-width: 1024px) {
+  .line-2 {
+    margin: 1rem 0;
+    height: 12rem;
+  }
+}
+
+.line-3-block {
+  background-color: hsl(219, 66%, 59%);
+  height: 9rem;
+  width: 100%;
+  margin-bottom: 0.3rem;
+}
+@media (min-width: 768px) {
+  .line-3-block {
+    height: 4.5rem;
+  }
+}
+@media (min-width: 1024px) {
+  .line-3 {
+    display: flex;
+    gap: 0.3rem;
+  }
+  .line-3-block {
+    height: 9rem;
+  }
+}
+.line-4 {
+  margin-top: 1rem;
+}
+.line-4-block {
+  background-color: rgb(207, 206, 206);
+  height: 4rem;
+  margin-bottom: 0.2rem;
+  width: 100%;
+}
+
+@media (max-width: 320px) {
+  .hide {
+    display: none;
+  }
+}
+
+@media (min-width: 321px) and (max-width: 1023px) {
+  .line-4 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 0.3rem;
+  }
+  .line-4-block {
+    width: 49%;
+  }
+}
+
+@media (min-width: 1024px) {
+  .line-4 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 0.3rem;
+  }
+  .line-4-block {
+    width: 24.5%;
+    height: 6rem;
+  }
+}

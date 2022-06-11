@@ -1,0 +1,100 @@
+.crossword {
+  margin: auto;
+}
+.firstLine {
+  display: flex;
+  justify-content: flex-start;
+  text-align: center;
+  line-height: 100px;
+}
+
+.first {
+  margin-right: 10px;
+  width: 100px;
+  height: 100px;
+  background-color: gray;
+}
+
+.secondLine {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  text-align: center;
+  line-height: 100px;
+}
+.second {
+  margin-top: 10px;
+  margin-right: 10px;
+  width: 100px;
+  height: 100px;
+  background-color: gray;
+}
+.thirdLine {
+  display: flex;
+  justify-content: flex-start;
+  text-align: center;
+  line-height: 100px;
+}
+.third {
+  margin-top: 10px;
+  margin-right: 10px;
+  width: 100px;
+  height: 100px;
+  background-color: gray;
+}
+.fourthLine {
+  display: flex;
+  justify-content: flex-end;
+  text-align: center;
+  line-height: 100px;
+}
+.four {
+  margin-top: 10px;
+  margin-right: 10px;
+  width: 100px;
+  height: 100px;
+  background-color: gray;
+}
+
+.fifthLine {
+  display: flex;
+  justify-content: flex-start;
+  text-align: center;
+  line-height: 100px;
+}
+.five {
+  margin-top: 10px;
+  margin-right: 10px;
+  width: 100px;
+  height: 100px;
+  background-color: gray;
+}
+.emptyBlock {
+  margin-top: 10px;
+  margin-right: 10px;
+  width: 100px;
+  height: 100px;
+  background-color: rgb(255, 255, 255);
+}
+.emptyBlock2 {
+  margin-top: 10px;
+  margin-right: 10px;
+  width: 30%;
+  height: 100px;
+  background-color: rgb(255, 255, 255);
+}
+
+.firstG {
+  margin-top: 10px;
+
+  margin-right: 10px;
+  width: 100px;
+  height: 100px;
+  background-color: rgb(27, 175, 8);
+}
+.firstGe {
+  margin-right: 10px;
+  width: 100px;
+  height: 100px;
+  background-color: rgb(27, 175, 8);
+}

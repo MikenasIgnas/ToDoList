@@ -1,0 +1,200 @@
+body {
+  margin: 0;
+}
+.calc {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+}
+.calcBody {
+  margin: auto;
+  width: 25%;
+  height: 70vh;
+}
+.screen {
+  margin: auto;
+  margin-top: 20px;
+  width: 90%;
+  height: 100px;
+  background: rgb(97, 86, 86);
+}
+.buttons {
+  display: flex;
+  margin: auto;
+  margin-top: 20px;
+  width: 90%;
+  height: 370px;
+}
+.buttonBody {
+  display: grid;
+  align-items: center;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(5, 1fr);
+  margin: auto;
+  margin-top: 20px;
+  width: 90%;
+  height: 330px;
+}
+
+button {
+  width: 100%;
+  height: 80px;
+}
+.buttonValue1 {
+  border: 1px solid black;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.buttonValue2 {
+  border: 1px solid black;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.buttonValue3 {
+  border: 1px solid black;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.buttonValue4 {
+  border: 1px solid black;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.buttonValue5 {
+  border: 1px solid black;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.buttonValue6 {
+  border: 1px solid black;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.buttonValue7 {
+  border: 1px solid black;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.buttonValue8 {
+  border: 1px solid black;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.buttonValue9 {
+  border: 1px solid black;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.buttonValue10 {
+  border: 1px solid black;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.buttonValue11 {
+  border: 1px solid black;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.buttonValue12 {
+  border: 1px solid black;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  grid-column: 1/2;
+  grid-row: 4/5;
+}
+.buttonValue13 {
+  border: 1px solid black;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  grid-column: 2/3;
+  grid-row: 4/5;
+}
+.buttonValue14 {
+  border: 1px solid black;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  grid-column: 3/4;
+  grid-row: 4/5;
+}
+
+.buttonValue16 {
+  border: 1px solid black;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  grid-column: 2/3;
+  grid-row: 5/6;
+}
+.buttonValue17 {
+  border: 1px solid black;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.buttonValue18 {
+  border: 1px solid black;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  grid-column: 3/4;
+  grid-row: 5/6;
+}
+.buttonValue19 {
+  border: 1px solid black;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  grid-column: 4/5;
+  grid-row: 3/4;
+}
+.buttonValue20 {
+  border: 1px solid black;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  grid-column: 4/5;
+  grid-row: 4/5;
+}
+.buttonValue21 {
+  border: 1px solid black;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  grid-column: 4/5;
+  grid-row: 5/6;
+}

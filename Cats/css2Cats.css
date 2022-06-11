@@ -1,0 +1,15 @@
+.border {
+  border-color: brown;
+  border-style: solid;
+
+  border-width: 2px;
+}
+.picture {
+  margin-left: 50%;
+  margin-bottom: 20px;
+}
+.link {
+  background-color: bisque;
+  margin-bottom: 20px;
+  text-align: center;
+}

@@ -1,0 +1,23 @@
+.d-block w-100 {
+  background-size: contain;
+}
+.cards {
+  display: flex;
+}
+.card {
+  margin: auto;
+}
+.tittle {
+  margin: 70px;
+  text-align: center;
+}
+.accordion {
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-bottom: 100px;
+}
+a {
+  z-index: 1;
+  position: fixed;
+  left: 1430px;
+}

@@ -1,0 +1,11 @@
+/* .boxStyle {
+  margin: auto;
+} */
+.img {
+  position: sticky;
+  top: 110px;
+}
+
+body {
+  background-color: rgb(219, 219, 219);
+}

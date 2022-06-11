@@ -1,0 +1,84 @@
+body {
+  margin: 50px;
+  background-color: rgb(199, 240, 240);
+}
+
+.mainGrid {
+  height: 100vh;
+  display: grid;
+  grid-template-columns: repeat(10, 1fr);
+  grid-template-rows: repeat(20, 1fr);
+}
+.topLeft1 {
+  background-image: url(https://pix10.agoda.net/hotelImages/3375/-1/f73547b49eadee36c6346f52a5b4f4fe.jpg?ca=8&ce=1&s=1024x768);
+
+  grid-column: 2/6;
+  grid-row: 2/9;
+}
+.topRight1 {
+  background-image: url(https://media.istockphoto.com/photos/varied-food-carbohydrates-protein-vegetables-fruits-dairy-legumes-on-picture-id1218254547?b=1&k=20&m=1218254547&s=170667a&w=0&h=mOEC7x7qU5NC78mCULs-jAPeLkxy8opOvIbGSnwmAyw=);
+  background-size: cover;
+
+  grid-column: 6/10;
+  grid-row: 2/9;
+}
+.bottomLeft1 {
+  background-image: url(https://media-cdn.tripadvisor.com/media/photo-s/18/1c/30/b4/photo1jpg.jpg);
+  background-size: cover;
+  object-fit: fill;
+
+  grid-column: 2/6;
+  grid-row: 11/18;
+}
+.bottomRight1 {
+  background-image: url(https://images.theconversation.com/files/78216/original/image-20150416-5628-6s1t8.jpg?ixlib=rb-1.1.0&q=45&auto=format&w=1200&h=1200.0&fit=crop);
+  background-size: cover;
+
+  grid-column: 6/10;
+  grid-row: 11/18;
+}
+
+.topLeft2 {
+  background-color: white;
+  opacity: 90%;
+  padding: 40px 30px;
+  grid-column: 1/5;
+  grid-row: 4/10;
+}
+.topRight2 {
+  background-color: white;
+  opacity: 90%;
+  padding: 40px 30px;
+  grid-column: 7/11;
+  grid-row: 4/10;
+}
+.bottomRight2 {
+  background-color: white;
+  opacity: 90%;
+  padding: 40px 30px;
+  grid-column: 1/5;
+  grid-row: 13/19;
+}
+
+.bottomLeft2 {
+  background-color: white;
+  opacity: 90%;
+  padding: 40px 30px;
+  grid-column: 7/11;
+  grid-row: 13/19;
+}
+
+h1 {
+  border-bottom: 3px solid black;
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+p {
+  margin-bottom: 50px;
+}
+a {
+  padding: 10px;
+  border: 1px solid black;
+  color: black;
+  text-decoration: none;
+}
