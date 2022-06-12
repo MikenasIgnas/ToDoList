@@ -70,3 +70,11 @@ html body {
   margin-bottom: 4px;
   margin-right: 3px;
 }
+
+.screen {
+  margin: auto;
+  margin-top: 20px;
+  width: 90%;
+  height: 100px;
+  background: rgb(97, 86, 86);
+}
