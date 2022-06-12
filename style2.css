@@ -70,11 +70,34 @@ html body {
   margin-bottom: 4px;
   margin-right: 3px;
 }
-
+/* CALCULATOR */
 .screen {
+  display: flex;
   margin: auto;
   margin-top: 20px;
-  width: 90%;
+  width: 30%;
   height: 100px;
-  background: rgb(97, 86, 86);
+  background: rgb(189, 172, 172);
+  justify-content: center;
+  align-items: center;
+}
+.buttons {
+  width: 30%;
+  height: 250px;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(6, 1fr);
+}
+
+.button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid black;
+  background-color: white;
+  margin: auto;
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
 }
